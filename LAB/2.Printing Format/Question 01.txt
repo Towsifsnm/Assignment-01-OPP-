@@ -1,0 +1,15 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+int a=12,b=4;
+
+int mul=a*b;
+int div=a/b;
+ cout<< "The multipulation number is "<< mul<< endl;
+ cout<< "The division number is "<< div << endl;
+return 0;
+
+
+}

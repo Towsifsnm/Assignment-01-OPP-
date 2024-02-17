@@ -1,0 +1,15 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int a=15,b=4;
+    int reminder = a%b;
+
+    cout << "The reminder of dividing 15 by 4 : "<<reminder;
+
+return 0;
+
+
+}
+

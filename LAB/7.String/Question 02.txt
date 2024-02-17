@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+      string bookTitle = "Everything I Never Told You ";
+      string authore = " Celeste Ng";
+
+      string bookInfo = bookTitle + "by" + authore;
+
+      cout<< "Book Information : " <<bookInfo;
+
+return 0;
+
+
+}
+

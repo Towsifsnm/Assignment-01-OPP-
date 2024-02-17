@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+class Student {
+private:
+     string name;
+    int age;
+    double gpa;
+
+public:
+
+    Student(const  string& n, int a, double g)
+        : name(n), age(a), gpa(g) {}
+
+
+    void printDetails() {
+        cout << "Student Details:" << endl;
+        cout << "Name: " << name <<  endl;
+        cout << "Age: " << age <<  endl;
+         cout << "GPA: " << gpa << endl;
+    }
+};
+
+int main() {
+
+    Student student1("Towsif Mahabub", 23, 3.5);
+
+
+    student1.printDetails();
+
+    return 0;
+}

@@ -1,0 +1,25 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+ int number;
+       while(true){
+        cout << "Enter a number :";
+       cin>> number;
+
+
+
+       if (number == -1){
+
+        cout<< "Program stop. ";
+
+       }
+
+       break;
+
+       }
+
+
+}

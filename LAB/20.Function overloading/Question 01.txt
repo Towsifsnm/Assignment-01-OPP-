@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int multiply(int num1, int num2) {
+    return num1 * num2;
+}
+
+
+double multiply(double num1, double num2) {
+    return num1 * num2;
+}
+
+int main() {
+
+    int resultInt = multiply(5, 7);
+     cout << "Multiplication of two integers: " << resultInt <<  endl;
+
+
+    double resultDouble = multiply(3.5, 2.0);
+    cout << "Multiplication of two doubles: " << resultDouble << endl;
+
+    return 0;
+}

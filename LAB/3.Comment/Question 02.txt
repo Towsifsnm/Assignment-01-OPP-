@@ -1,0 +1,15 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int height=10,lenth=20;
+    cout<< "Enter the height size: "<< height <<endl;
+    cout<< "Enter the lenth size: "<<lenth<<endl;
+    int area = height*lenth;
+    cout<< "The area of two ractangle : "<< area;
+return 0;
+
+
+}
+

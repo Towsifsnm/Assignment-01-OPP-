@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int x=10,y=25;
+
+    x=x++;
+    y=--x;
+
+    cout<< "x = "<<y<<endl;
+    cout<< "y = "<<x<<endl;
+    x=--x;
+    y=y++;
+
+    cout<< "x = "<<y<<endl;
+    cout<< "y = "<<x;
+
+return 0;
+
+
+}
+

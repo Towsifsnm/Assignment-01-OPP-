@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+void printGreeting(const  string& name, int age) {
+    cout << "Hello, " << name << "!" <<endl<< "You are " << age << " years old." <<  endl;
+}
+
+int main() {
+
+     string personName = "Towsif";
+    int personAge = 23;
+
+
+    printGreeting(personName, personAge);
+
+    return 0;
+}

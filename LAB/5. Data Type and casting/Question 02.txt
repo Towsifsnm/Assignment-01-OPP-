@@ -1,0 +1,16 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+   double fractionalNumber=20.4;
+   int number = (int)fractionalNumber;
+
+   cout<< "The original value: "<< fractionalNumber<<endl;
+   cout<< "The casted value: "<< number <<endl;
+
+return 0;
+
+
+}
+

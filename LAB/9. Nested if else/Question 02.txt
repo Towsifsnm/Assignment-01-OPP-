@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+       double weight,distance,shippingCost;
+       cout<< "Enter the weight of goods:";
+       cin>> weight;
+       cout<< "Enter the shipping distance of goods in KM:";
+       cin>> distance;
+
+       if (weight<5){
+        shippingCost= distance*10;
+       }
+        else if(weight<20){
+            shippingCost= distance*30;
+        }
+       else{
+        shippingCost= distance*15;
+       }
+
+       cout<< "Shipping Cost: tk "<<shippingCost;
+       return 0;
+
+
+}
+

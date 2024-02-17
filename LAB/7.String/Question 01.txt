@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+     string city = "Dhaka ";
+     string country = " Bangladesh";
+
+
+     cout<< "Location "  <<city << ","<< country;
+
+return 0;
+
+
+}
+

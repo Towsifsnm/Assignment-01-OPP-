@@ -1,0 +1,12 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+
+cout<< "Learning c++ is fun!"<<endl;
+
+return 0;
+
+
+}

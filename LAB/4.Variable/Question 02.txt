@@ -1,0 +1,18 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+ bool isStudent= false ;
+ int studentId = 1026;
+
+
+ cout<< "Is Student : "<< isStudent<< endl;
+  cout<< "Your ID : "<< studentId<< endl;
+
+
+return 0;
+
+
+}
+

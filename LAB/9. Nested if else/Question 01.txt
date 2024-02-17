@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+       int age;
+       double height;
+       cout << "Enter your age in years: ";
+       cin>> age;
+
+       cout<< "Enter your height in centimeters: ";
+       cin>> height;
+
+       if (age>=15&&height>=65){
+        cout<< "They can ride a roller coaster";
+       }
+       else{
+        cout<< "They can not ride a roller coaster";
+       }
+
+return 0;
+
+
+}
+

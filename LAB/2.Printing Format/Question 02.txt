@@ -1,0 +1,15 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+string firstName="Towsif";
+string lastName= "Mahabub";
+
+string fullName= firstName + " " + lastName;
+ cout<< "Full Name: " << fullName<< endl;
+
+return 0;
+
+
+}

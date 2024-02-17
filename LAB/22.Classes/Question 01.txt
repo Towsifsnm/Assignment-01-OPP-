@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+#include <cmath>
+
+class Circle {
+private:
+    double radius;
+
+public:
+
+    void setRadius(double r) {
+
+        if (r >= 0) {
+            radius = r;
+        } else {
+            cerr << "Error: Radius should be non-negative." << endl;
+        }
+    }
+
+
+    double calculateArea() {
+
+        return M_PI *  pow(radius, 2);
+    }
+};
+
+int main() {
+
+    Circle myCircle;
+
+
+    myCircle.setRadius(4.5);
+
+
+     cout << "The area of the circle with radius " << myCircle.calculateArea() <<  endl;
+
+    return 0;
+}

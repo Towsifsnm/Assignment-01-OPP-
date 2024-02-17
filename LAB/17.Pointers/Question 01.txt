@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+    int myInteger = 42;
+    float myFloat = 3.14;
+    char myChar = 'A';
+
+
+    int* intPtr = &myInteger;
+    float* floatPtr = &myFloat;
+    char* charPtr = &myChar;
+
+
+     cout << "Address of myInteger: " << intPtr <<  endl;
+    cout << "Address of myFloat: " << floatPtr <<  endl;
+     cout << "Address of myChar: " << static_cast<void*>(charPtr) <<  endl;
+
+    return 0;
+}

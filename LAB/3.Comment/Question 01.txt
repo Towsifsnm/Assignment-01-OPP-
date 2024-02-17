@@ -1,0 +1,15 @@
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    int num1=3,num2=7;
+    cout<< "Enter the first number: "<< num1<<endl;
+    cout<< "Enter the second number: "<< num2<<endl;
+    int sum = num1+num2;
+    cout<< "The sumation of two numbers : "<< sum;
+return 0;
+
+
+}
+

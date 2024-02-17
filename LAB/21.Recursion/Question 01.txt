@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+ 
+int sumFrom1ToN(int n) {
+    
+    if (n == 1) {
+        return 1;
+    }
+    
+    else {
+        return n + sumFrom1ToN(n - 1);
+    }
+}
+
+int main() {
+     
+    int n = 5;
+    int result = sumFrom1ToN(n);
+
+     cout << "The sum of numbers from 1 to " << n << " is: " << result << endl;
+
+    return 0;
+}

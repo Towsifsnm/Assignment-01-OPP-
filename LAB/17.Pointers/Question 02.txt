@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+    int myArray[] = {1, 2, 3, 4, 5};
+    int i;
+
+    int* arrayPtr = myArray;
+
+
+     cout << "Elements of the array using pointer:" <<  endl;
+    for (  i = 0; i < 5; ++i) {
+      cout << "Element " << i << ": " << *(arrayPtr + i) <<  endl;
+    }
+
+    return 0;
+}
